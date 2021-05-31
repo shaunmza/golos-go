@@ -1,4 +1,4 @@
-module github.com/asuleymanov/golos-go
+module github.com/shaunmza/golos-go
 
 go 1.13
 
