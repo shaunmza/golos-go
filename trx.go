@@ -3,10 +3,10 @@ package golos
 import (
 	"time"
 
-	"github.com/asuleymanov/golos-go/api"
-	"github.com/asuleymanov/golos-go/operations"
-	"github.com/asuleymanov/golos-go/transactions"
-	"github.com/asuleymanov/golos-go/types"
+	"github.com/shaunmza/golos-go/api"
+	"github.com/shaunmza/golos-go/operations"
+	"github.com/shaunmza/golos-go/transactions"
+	"github.com/shaunmza/golos-go/types"
 )
 
 //SendTrx generates and sends an array of transactions to VIZ.
@@ -47,7 +47,7 @@ func (client *Client) SendTrx(username string, strx []operations.Operation) (*ty
 	}
 
 	// Sign the transaction
-	if err := tx.Sign(privKeys, client.Config.ChainID); err != nil {
+	if err := tx.Sign(privKeys, client.Config.GetChainID()); err != nil {
 		return nil, err
 	}
 

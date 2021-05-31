@@ -3,8 +3,8 @@ package operations
 import (
 	"errors"
 
-	"github.com/asuleymanov/golos-go/encoding/transaction"
-	"github.com/asuleymanov/golos-go/types"
+	"github.com/shaunmza/golos-go/encoding/transaction"
+	"github.com/shaunmza/golos-go/types"
 )
 
 // Transaction represents a blockchain transaction.

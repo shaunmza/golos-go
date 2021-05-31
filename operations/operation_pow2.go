@@ -1,7 +1,7 @@
 package operations
 
 import (
-	"github.com/asuleymanov/golos-go/types"
+	"github.com/shaunmza/golos-go/types"
 )
 
 //POW2Operation represents pow2 operation data.

@@ -3,7 +3,7 @@ package api
 import (
 	"fmt"
 
-	"github.com/asuleymanov/golos-go/types"
+	"github.com/shaunmza/golos-go/types"
 )
 
 //market_history

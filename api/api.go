@@ -3,7 +3,7 @@ package api
 import (
 	"encoding/json"
 
-	"github.com/asuleymanov/golos-go/transports"
+	"github.com/shaunmza/golos-go/transports"
 )
 
 //API plug-in structure

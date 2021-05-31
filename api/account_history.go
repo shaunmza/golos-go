@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/asuleymanov/golos-go/operations"
+	"github.com/shaunmza/golos-go/operations"
 )
 
 //account_history

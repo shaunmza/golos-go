@@ -6,7 +6,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/asuleymanov/golos-go/types"
+	"github.com/shaunmza/golos-go/types"
 )
 
 //RefBlockNum function returns blockNumber

@@ -1,8 +1,8 @@
 package operations
 
 import (
-	"github.com/asuleymanov/golos-go/encoding/transaction"
-	"github.com/asuleymanov/golos-go/types"
+	"github.com/shaunmza/golos-go/encoding/transaction"
+	"github.com/shaunmza/golos-go/types"
 )
 
 //DelegateVestingSharesWithInterestOperation represents delegate_vesting_shares_with_interest operation data.

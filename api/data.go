@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/asuleymanov/golos-go/operations"
-	"github.com/asuleymanov/golos-go/types"
+	"github.com/shaunmza/golos-go/operations"
+	"github.com/shaunmza/golos-go/types"
 )
 
 //Bandwidth structure for the GetAccountBandwidth function
@@ -112,7 +112,7 @@ type BlockHeader struct {
 
 //Config structure for the GetConfig function.
 type Config struct {
-	BuildTestnet                   bool        `json:"STEEMIT_BUILD_TESTNET"`
+	/*BuildTestnet                   bool        `json:"STEEMIT_BUILD_TESTNET"`
 	GrapheneCurrentDBVersion       string      `json:"GRAPHENE_CURRENT_DB_VERSION"`
 	SbdSymbol                      types.Int   `json:"SBD_SYMBOL"`
 	Percent100                     int         `json:"STEEMIT_100_PERCENT"`
@@ -134,9 +134,9 @@ type Config struct {
 	BlocksPerDay                   types.Int   `json:"STEEMIT_BLOCKS_PER_DAY"`
 	BlocksPerHour                  types.Int   `json:"STEEMIT_BLOCKS_PER_HOUR"`
 	BlocksPerYear                  types.Int   `json:"STEEMIT_BLOCKS_PER_YEAR"`
-	CashoutWindowSeconds           types.Int   `json:"STEEMIT_CASHOUT_WINDOW_SECONDS"`
+	CashoutWindowSeconds           types.Int   `json:"STEEMIT_CASHOUT_WINDOW_SECONDS"`*/
 	ChainID                        string      `json:"STEEMIT_CHAIN_ID"`
-	ContentAprPercent              types.Int   `json:"STEEMIT_CONTENT_APR_PERCENT"`
+	/*ContentAprPercent              types.Int   `json:"STEEMIT_CONTENT_APR_PERCENT"`
 	ConversionDelay                string      `json:"STEEMIT_CONVERSION_DELAY"`
 	CurateAprPercent               types.Int   `json:"STEEMIT_CURATE_APR_PERCENT"`
 	DefaultSbdInterestRate         types.Int   `json:"STEEMIT_DEFAULT_SBD_INTEREST_RATE"`
@@ -218,7 +218,7 @@ type Config struct {
 	VoteRegenerationSeconds        int         `json:"STEEMIT_VOTE_REGENERATION_SECONDS"`
 	SteemSymbol                    string      `json:"STEEM_SYMBOL"`
 	VestsSymbol                    string      `json:"VESTS_SYMBOL"`
-	BlockchainName                 string      `json:"BLOCKCHAIN_NAME"`
+	BlockchainName                 string      `json:"BLOCKCHAIN_NAME"`*/
 }
 
 //ConversionRequests structure for the GetConversionRequests function.

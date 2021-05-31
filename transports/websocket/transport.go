@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/asuleymanov/golos-go/types"
+	"github.com/shaunmza/golos-go/types"
 	"github.com/gorilla/websocket"
 )
 

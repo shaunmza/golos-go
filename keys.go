@@ -3,8 +3,8 @@ package golos
 import (
 	"errors"
 
-	"github.com/asuleymanov/golos-go/encoding/wif"
-	"github.com/asuleymanov/golos-go/operations"
+	"github.com/shaunmza/golos-go/encoding/wif"
+	"github.com/shaunmza/golos-go/operations"
 )
 
 var (

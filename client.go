@@ -4,10 +4,10 @@ import (
 	"errors"
 	"net/url"
 
-	"github.com/asuleymanov/golos-go/api"
-	"github.com/asuleymanov/golos-go/transports"
-	"github.com/asuleymanov/golos-go/transports/http"
-	"github.com/asuleymanov/golos-go/transports/websocket"
+	"github.com/shaunmza/golos-go/api"
+	"github.com/shaunmza/golos-go/transports"
+	"github.com/shaunmza/golos-go/transports/http"
+	"github.com/shaunmza/golos-go/transports/websocket"
 )
 
 var (

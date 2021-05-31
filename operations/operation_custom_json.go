@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/asuleymanov/golos-go/encoding/transaction"
+	"github.com/shaunmza/golos-go/encoding/transaction"
 )
 
 //CustomJSONOperation represents custom_json operation data.

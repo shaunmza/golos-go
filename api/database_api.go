@@ -3,8 +3,8 @@ package api
 import (
 	"encoding/json"
 
-	"github.com/asuleymanov/golos-go/operations"
-	"github.com/asuleymanov/golos-go/types"
+	"github.com/shaunmza/golos-go/operations"
+	"github.com/shaunmza/golos-go/types"
 )
 
 //database_api

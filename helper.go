@@ -1,9 +1,9 @@
 package golos
 
 import (
-	"github.com/asuleymanov/golos-go/operations"
-	"github.com/asuleymanov/golos-go/transactions"
-	"github.com/asuleymanov/golos-go/types"
+	"github.com/shaunmza/golos-go/operations"
+	"github.com/shaunmza/golos-go/transactions"
+	"github.com/shaunmza/golos-go/types"
 )
 
 //SetAsyncProtocol enables or disables the asynchronous operation protocol

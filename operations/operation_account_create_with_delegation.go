@@ -1,8 +1,8 @@
 package operations
 
 import (
-	"github.com/asuleymanov/golos-go/encoding/transaction"
-	"github.com/asuleymanov/golos-go/types"
+	"github.com/shaunmza/golos-go/encoding/transaction"
+	"github.com/shaunmza/golos-go/types"
 )
 
 //AccountCreateWithDelegationOperation represents account_create_with_delegation operation data.

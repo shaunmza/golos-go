@@ -3,7 +3,7 @@ package operations
 import (
 	"encoding/json"
 
-	"github.com/asuleymanov/golos-go/types"
+	"github.com/shaunmza/golos-go/types"
 )
 
 //OperationObject type from parameter JSON

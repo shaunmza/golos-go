@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/asuleymanov/golos-go/operations"
+	"github.com/shaunmza/golos-go/operations"
 )
 
 //operation_history
