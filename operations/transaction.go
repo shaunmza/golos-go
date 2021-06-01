@@ -24,9 +24,9 @@ func (tx *Transaction) MarshalTransaction(encoder *transaction.Encoder) error {
 
 	enc := transaction.NewRollingEncoder(encoder)
 
-	enc.Encode(tx.RefBlockNum)
-	enc.Encode(tx.RefBlockPrefix)
-	enc.Encode(tx.Expiration)
+	enc.Encode(uint32(tx.RefBlockNum))
+	enc.Encode(uint64(tx.RefBlockPrefix))
+	enc.Encode(uint32(tx.Expiration.Unix()))
 
 	enc.EncodeUVarint(uint64(len(tx.Operations)))
 	for _, op := range tx.Operations {

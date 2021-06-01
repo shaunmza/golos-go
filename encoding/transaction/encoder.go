@@ -11,7 +11,6 @@ import (
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/btcsuite/btcutil/base58"
 	"golang.org/x/crypto/ripemd160"
-	"github.com/shaunmza/golos-go/types"
 )
 
 //Encoder structure for the converter
@@ -89,10 +88,6 @@ func (encoder *Encoder) Encode(v interface{}) error {
 		return marshaller.MarshalTransaction(encoder)
 	}
 
-	if marshaller, ok := v.(types.Time); ok {
-		return marshaller.MarshalTransaction(encoder)
-	}
-
 	switch v := v.(type) {
 	case int:
 		return encoder.EncodeNumber(v)
@@ -111,11 +106,7 @@ func (encoder *Encoder) Encode(v interface{}) error {
 		return encoder.EncodeNumber(v)
 	case uint16:
 		return encoder.EncodeNumber(v)
-	case types.UInt16:
-		return encoder.EncodeNumber(v)
 	case uint32:
-		return encoder.EncodeNumber(v)
-	case types.UInt32:
 		return encoder.EncodeNumber(v)
 	case uint64:
 		return encoder.EncodeNumber(v)

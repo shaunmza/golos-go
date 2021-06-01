@@ -16,7 +16,7 @@ var(
 )
 
 func main() {
-	cls, _ := golos.NewClient("wss://golos.solox.world/ws")
+	cls, _ := golos.NewClient("https://hive.roelandp.nl")
 	defer cls.Close()
 
 	cls.SetKeys(&golos.Keys{PKey: []string{pkey}})
