@@ -7,8 +7,8 @@ import (
 	"os/signal"
 	"sync"
 
-	"github.com/asuleymanov/golos-go"
-	"github.com/asuleymanov/golos-go/api"
+	"github.com/shaunmza/golos-go"
+	"github.com/shaunmza/golos-go/api"
 )
 
 func main() {

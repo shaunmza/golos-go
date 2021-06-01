@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/asuleymanov/golos-go"
-	"github.com/asuleymanov/golos-go/operations"
+	"github.com/shaunmza/golos-go"
+	"github.com/shaunmza/golos-go/operations"
 )
 
 var(

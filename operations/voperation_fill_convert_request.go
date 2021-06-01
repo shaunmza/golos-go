@@ -1,7 +1,7 @@
 package operations
 
 import (
-	"github.com/asuleymanov/golos-go/types"
+	"github.com/shaunmza/golos-go/types"
 )
 
 //FillConvertRequestOperation represents fill_convert_request operation data.

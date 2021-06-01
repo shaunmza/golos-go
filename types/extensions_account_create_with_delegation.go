@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/asuleymanov/golos-go/encoding/transaction"
+	"github.com/shaunmza/golos-go/encoding/transaction"
 )
 
 //AccountReferral is an additional structure used by other structures.

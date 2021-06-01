@@ -1,7 +1,7 @@
 package operations
 
 import (
-	"github.com/asuleymanov/golos-go/encoding/transaction"
+	"github.com/shaunmza/golos-go/encoding/transaction"
 )
 
 //WorkerRequestVoteOperation represents worker_request_vote operation data.

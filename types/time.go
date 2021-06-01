@@ -5,7 +5,7 @@ import (
 	"time"
 
 	// RPC
-	"github.com/asuleymanov/golos-go/encoding/transaction"
+	"github.com/shaunmza/golos-go/encoding/transaction"
 )
 
 const layout = `"2006-01-02T15:04:05"`
