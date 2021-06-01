@@ -11,6 +11,7 @@ import (
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/btcsuite/btcutil/base58"
 	"golang.org/x/crypto/ripemd160"
+	"github.com/shaunmza/golos-go/types"
 )
 
 //Encoder structure for the converter
@@ -106,7 +107,11 @@ func (encoder *Encoder) Encode(v interface{}) error {
 		return encoder.EncodeNumber(v)
 	case uint16:
 		return encoder.EncodeNumber(v)
+	case types.UInt16:
+		return encoder.EncodeNumber(v)
 	case uint32:
+		return encoder.EncodeNumber(v)
+	case types.UInt32:
 		return encoder.EncodeNumber(v)
 	case uint64:
 		return encoder.EncodeNumber(v)
