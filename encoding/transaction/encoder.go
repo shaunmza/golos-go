@@ -89,6 +89,10 @@ func (encoder *Encoder) Encode(v interface{}) error {
 		return marshaller.MarshalTransaction(encoder)
 	}
 
+	if marshaller, ok := v.(types.Time); ok {
+		return marshaller.MarshalTransaction(encoder)
+	}
+
 	switch v := v.(type) {
 	case int:
 		return encoder.EncodeNumber(v)
